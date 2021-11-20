@@ -1,0 +1,5 @@
+library(ggplot2)
+a<-read.table("~/Dropbox/Sim_clade_paper/sim_Y\ paper/Display/Y_intron.length.txt",header=T)
+a$Species <- factor(a$Species, levels = c("Dmel","Dmau","Dsim","Dsech"))
+a$N_Gap <- factor(a$N_Gap, levels = unique(as.character(a$N_Gap)))
+ggplot(a, aes(x =Species , y = log(length,10), color = N_Gap, group = Group, na.rm = FALSE)) + geom_point() + geom_line(col=1,lty=2) +facet_grid(facets=. ~ Gene)+ylab('log length')
