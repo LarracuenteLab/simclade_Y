@@ -5,7 +5,7 @@ Chang, C-H., Gregory, L.E., Gordon, K.E., Meiklejohn, C.D., Larracuente, A.M. 20
 
 Please contact cchang2@fredhutch.org or alarracu@bio.rochester.edu with questions.
 
-Links to dowload assemblies:
+Links to download assemblies:
 D. simulans assembly
 https://drive.google.com/file/d/1xIYVlXvzg54-tIqD0z6hwKRZjaIwhsR_/view?usp=sharing
 
